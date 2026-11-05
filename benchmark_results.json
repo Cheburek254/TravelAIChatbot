@@ -1,0 +1,588 @@
+{
+  "summary": {
+    "mode": "direct",
+    "simulated": false,
+    "validated_successfully": 20,
+    "total_scenarios": 20,
+    "completed_successfully": 4,
+    "completion_rate_pct": 20.0,
+    "avg_time_to_first_recommendation_sec": 0.051,
+    "p95_latency_sec": 0.016,
+    "avg_clarifying_questions": 0.05,
+    "logistics_mismatch_errors": 0,
+    "logistics_measured_scenarios": 4,
+    "logistics_accuracy_pct": 100.0,
+    "replanning_success_rate_pct": 0.0,
+    "healthcheck": null
+  },
+  "results": [
+    {
+      "id": "TC-01",
+      "category": "inspiration",
+      "title": "Запрос с открытым выбором направления (море в ноябре с ребёнком)",
+      "turns_count": 1,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.911,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.911,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-02",
+      "category": "inspiration",
+      "title": "Спонтанный побег из города на выходные (тишина и природа)",
+      "turns_count": 1,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.006,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.006,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-03",
+      "category": "logistics_conflict",
+      "title": "Ночной прилёт в 03:30 утра vs стандартный заезд в 14:00",
+      "turns_count": 1,
+      "passed": true,
+      "completed": true,
+      "first_response_latency_sec": 0.016,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": true,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.016,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": true,
+          "tradeoffs_ok": true,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": true,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-04",
+      "category": "logistics_conflict",
+      "title": "Ловушка дешёвого отеля с дорогим трансфером",
+      "turns_count": 1,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.005,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.005,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-05",
+      "category": "logistics_conflict",
+      "title": "Поздний обратный вылет (выселение в 12:00, самолёт в 23:45)",
+      "turns_count": 1,
+      "passed": true,
+      "completed": true,
+      "first_response_latency_sec": 0.007,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": true,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.007,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": true,
+          "tradeoffs_ok": true,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": true,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-06",
+      "category": "special_needs",
+      "title": "Поездка с крупной собакой (Pet-friendly и скрытые доплаты)",
+      "turns_count": 1,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.005,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.005,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-07",
+      "category": "special_needs",
+      "title": "Поездка с пожилыми родителями (без ступенек и крутых горок)",
+      "turns_count": 1,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.005,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.005,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-08",
+      "category": "special_needs",
+      "title": "Workation (удалённая работа с жёсткими требованиями к Wi-Fi)",
+      "turns_count": 1,
+      "passed": true,
+      "completed": true,
+      "first_response_latency_sec": 0.007,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": true,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.007,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": true,
+          "tradeoffs_ok": true,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": true,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-09",
+      "category": "replanning",
+      "title": "Пересборка плана №1: резкое сокращение бюджета на 35%",
+      "turns_count": 2,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.004,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.004,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        },
+        {
+          "turn": 2,
+          "latency_sec": 0.002,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-10",
+      "category": "replanning",
+      "title": "Пересборка плана №2: внезапно добавилась собака и сдвинулись даты",
+      "turns_count": 2,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.004,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.004,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        },
+        {
+          "turn": 2,
+          "latency_sec": 0.001,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-11",
+      "category": "replanning",
+      "title": "Пересборка плана №3: добавился третий взрослый и нужна бесплатная отмена",
+      "turns_count": 2,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.004,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.004,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        },
+        {
+          "turn": 2,
+          "latency_sec": 0.001,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-12",
+      "category": "clarification",
+      "title": "Слишком короткий запрос («Хочу в отпуск в декабре»)",
+      "turns_count": 1,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.001,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.001,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-13",
+      "category": "tradeoff_explanation",
+      "title": "Выбор между центром города и спа-отелем за городом",
+      "turns_count": 1,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.005,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.005,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-14",
+      "category": "stress_test",
+      "title": "Нереалистичный бюджет (Мальдивы за 25 000 рублей)",
+      "turns_count": 1,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.009,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.009,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-15",
+      "category": "stress_test",
+      "title": "Противоречивый запрос (Пляжное купание в Мурманске в ноябре)",
+      "turns_count": 1,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.006,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.006,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-16",
+      "category": "special_needs",
+      "title": "Семейная поездка с младенцем (коляска, кухня в номере, тихий час)",
+      "turns_count": 1,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.005,
+      "total_questions_asked": 1,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.005,
+          "questions_count": 1,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-17",
+      "category": "inspiration",
+      "title": "Гастрономический и винный тур по России без перелётов",
+      "turns_count": 1,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.004,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.004,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-18",
+      "category": "post_booking",
+      "title": "Доп. задача: Работа после покупки (задержка рейса и ранний заезд)",
+      "turns_count": 1,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.005,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.005,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-19",
+      "category": "replanning",
+      "title": "Полный цикл до покупки (От идеи до оформления корзины)",
+      "turns_count": 2,
+      "passed": true,
+      "completed": false,
+      "first_response_latency_sec": 0.004,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": null,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.004,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        },
+        {
+          "turn": 2,
+          "latency_sec": 0.001,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": null,
+          "tradeoffs_ok": null,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": false,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TC-20",
+      "category": "stress_test",
+      "title": "Попытка сломать агента (Инъекция / нецелевой запрос + возврат к теме)",
+      "turns_count": 1,
+      "passed": true,
+      "completed": true,
+      "first_response_latency_sec": 0.006,
+      "total_questions_asked": 0,
+      "logistics_sync_ok": true,
+      "error": null,
+      "turns": [
+        {
+          "turn": 1,
+          "latency_sec": 0.006,
+          "questions_count": 0,
+          "too_many_questions": false,
+          "logistics_ok": true,
+          "tradeoffs_ok": true,
+          "budget_ok": true,
+          "frontend_contract_ok": true,
+          "trip_completed": true,
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

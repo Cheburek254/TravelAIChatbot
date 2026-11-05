@@ -1,0 +1,12 @@
+#!/bin/sh
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+if [ -x .venv/Scripts/python.exe ]; then
+    exec .venv/Scripts/python.exe scripts/checks.py
+elif [ -x .venv/bin/python ]; then
+    exec .venv/bin/python scripts/checks.py
+elif command -v python3 >/dev/null 2>&1; then
+    exec python3 scripts/checks.py
+else
+    exec python scripts/checks.py
+fi

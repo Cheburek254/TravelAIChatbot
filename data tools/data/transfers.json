@@ -1,0 +1,409 @@
+{
+  "routes": {
+    "sochi": {
+      "airport_code": "AER",
+      "airport_name": "Международный аэропорт Сочи (Адлер)",
+      "city": "Сочи",
+      "flight_duration_hours": 3.8,
+      "base_price_rub": 8500,
+      "airlines": [
+        {
+          "name": "Аэрофлот",
+          "code": "SU",
+          "rating": 4.8
+        },
+        {
+          "name": "S7 Airlines",
+          "code": "S7",
+          "rating": 4.7
+        },
+        {
+          "name": "Победа",
+          "code": "DP",
+          "rating": 4.1
+        }
+      ],
+      "transfers": [
+        {
+          "type": "Комфорт+ (Седан)",
+          "vehicle": "Toyota Camry / Chery Arrizo 8",
+          "capacity_passengers": 3,
+          "capacity_luggage": 3,
+          "duration_minutes": 45,
+          "price_rub": 2200,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        },
+        {
+          "type": "Семейный Минивэн",
+          "vehicle": "Hyundai H-1 / Mercedes V-Class",
+          "capacity_passengers": 6,
+          "capacity_luggage": 6,
+          "duration_minutes": 45,
+          "price_rub": 3800,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        }
+      ]
+    },
+    "dubai": {
+      "airport_code": "DXB",
+      "airport_name": "Dubai International Airport",
+      "city": "Дубай",
+      "flight_duration_hours": 5.5,
+      "base_price_rub": 24000,
+      "airlines": [
+        {
+          "name": "Emirates",
+          "code": "EK",
+          "rating": 4.9
+        },
+        {
+          "name": "flydubai",
+          "code": "FZ",
+          "rating": 4.6
+        },
+        {
+          "name": "Аэрофлот",
+          "code": "SU",
+          "rating": 4.8
+        }
+      ],
+      "transfers": [
+        {
+          "type": "Комфорт+ (Седан)",
+          "vehicle": "Lexus ES / Toyota Camry",
+          "capacity_passengers": 3,
+          "capacity_luggage": 3,
+          "duration_minutes": 35,
+          "price_rub": 4500,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        },
+        {
+          "type": "Премиум Минивэн",
+          "vehicle": "Mercedes-Benz V-Class",
+          "capacity_passengers": 6,
+          "capacity_luggage": 6,
+          "duration_minutes": 35,
+          "price_rub": 7500,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        }
+      ]
+    },
+    "phuket": {
+      "airport_code": "HKT",
+      "airport_name": "Phuket International Airport",
+      "city": "Пхукет",
+      "flight_duration_hours": 9.5,
+      "base_price_rub": 42000,
+      "airlines": [
+        {
+          "name": "Аэрофлот",
+          "code": "SU",
+          "rating": 4.8
+        },
+        {
+          "name": "Azur Air",
+          "code": "ZF",
+          "rating": 4.2
+        }
+      ],
+      "transfers": [
+        {
+          "type": "Комфорт Седан с кондиционером",
+          "vehicle": "Toyota Corolla Altis",
+          "capacity_passengers": 3,
+          "capacity_luggage": 3,
+          "duration_minutes": 55,
+          "price_rub": 3200,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        },
+        {
+          "type": "Семейный Микроавтобус",
+          "vehicle": "Toyota Commuter",
+          "capacity_passengers": 8,
+          "capacity_luggage": 8,
+          "duration_minutes": 55,
+          "price_rub": 4900,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        }
+      ]
+    },
+    "sheregesh": {
+      "airport_code": "NOZ",
+      "airport_name": "Аэропорт Новокузнецк (Спиченково)",
+      "city": "Новокузнецк / Шерегеш",
+      "flight_duration_hours": 4.5,
+      "base_price_rub": 13500,
+      "airlines": [
+        {
+          "name": "S7 Airlines",
+          "code": "S7",
+          "rating": 4.7
+        },
+        {
+          "name": "Аэрофлот",
+          "code": "SU",
+          "rating": 4.8
+        }
+      ],
+      "transfers": [
+        {
+          "type": "Внедорожник 4x4 с багажником для лыж",
+          "vehicle": "Toyota Land Cruiser Prado / Haval H9",
+          "capacity_passengers": 3,
+          "capacity_luggage": 4,
+          "duration_minutes": 110,
+          "price_rub": 5500,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        },
+        {
+          "type": "Горнолыжный Минивэн",
+          "vehicle": "Mercedes Sprinter / VW Caravelle",
+          "capacity_passengers": 7,
+          "capacity_luggage": 8,
+          "duration_minutes": 110,
+          "price_rub": 7900,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        }
+      ]
+    },
+    "altay": {
+      "airport_code": "RGK",
+      "airport_name": "Аэропорт Горно-Алтайск",
+      "city": "Горно-Алтайск / Алтай",
+      "flight_duration_hours": 4.5,
+      "base_price_rub": 12500,
+      "airlines": [
+        {
+          "name": "S7 Airlines",
+          "code": "S7",
+          "rating": 4.7
+        },
+        {
+          "name": "Аэрофлот",
+          "code": "SU",
+          "rating": 4.8
+        }
+      ],
+      "transfers": [
+        {
+          "type": "Комфорт Кроссовер",
+          "vehicle": "Geely Monjaro / Toyota RAV4",
+          "capacity_passengers": 3,
+          "capacity_luggage": 3,
+          "duration_minutes": 60,
+          "price_rub": 3500,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        }
+      ]
+    },
+    "istanbul": {
+      "airport_code": "IST",
+      "airport_name": "Istanbul Airport",
+      "city": "Стамбул",
+      "flight_duration_hours": 4.5,
+      "base_price_rub": 16000,
+      "airlines": [
+        {
+          "name": "Turkish Airlines",
+          "code": "TK",
+          "rating": 4.9
+        },
+        {
+          "name": "Аэрофлот",
+          "code": "SU",
+          "rating": 4.8
+        },
+        {
+          "name": "Pegasus",
+          "code": "PC",
+          "rating": 4.2
+        }
+      ],
+      "transfers": [
+        {
+          "type": "Комфорт+ Трансфер",
+          "vehicle": "Mercedes-Benz Vito",
+          "capacity_passengers": 5,
+          "capacity_luggage": 5,
+          "duration_minutes": 45,
+          "price_rub": 3900,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        }
+      ]
+    },
+    "maldives": {
+      "airport_code": "MLE",
+      "airport_name": "Velana International Airport (Male)",
+      "city": "Мале / Мальдивы",
+      "flight_duration_hours": 8.5,
+      "base_price_rub": 55000,
+      "airlines": [
+        {
+          "name": "Аэрофлот",
+          "code": "SU",
+          "rating": 4.8
+        },
+        {
+          "name": "Emirates",
+          "code": "EK",
+          "rating": 4.9
+        }
+      ],
+      "transfers": [
+        {
+          "type": "Скоростной катер (Speedboat)",
+          "vehicle": "Resort Speedboat",
+          "capacity_passengers": 12,
+          "capacity_luggage": 20,
+          "duration_minutes": 45,
+          "price_rub": 12000,
+          "child_seat_available": true,
+          "pet_friendly": false,
+          "meet_with_sign": true
+        }
+      ]
+    },
+    "kaliningrad": {
+      "airport_code": "KGD",
+      "airport_name": "Аэропорт Храброво",
+      "city": "Калининград",
+      "flight_duration_hours": 2.8,
+      "base_price_rub": 6500,
+      "airlines": [
+        {
+          "name": "Аэрофлот",
+          "code": "SU",
+          "rating": 4.8
+        },
+        {
+          "name": "Победа",
+          "code": "DP",
+          "rating": 4.1
+        },
+        {
+          "name": "Уральские Авиалинии",
+          "code": "U6",
+          "rating": 4.3
+        }
+      ],
+      "transfers": [
+        {
+          "type": "Комфорт Седан",
+          "vehicle": "Skoda Octavia",
+          "capacity_passengers": 3,
+          "capacity_luggage": 3,
+          "duration_minutes": 35,
+          "price_rub": 1800,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        }
+      ]
+    },
+    "dagestan": {
+      "airport_code": "MCX",
+      "airport_name": "Международный аэропорт Махачкала (Уйташ)",
+      "city": "Дагестан",
+      "flight_duration_hours": 2.8,
+      "base_price_rub": 7500,
+      "airlines": [
+        {
+          "name": "Победа",
+          "code": "DP",
+          "rating": 4.1
+        },
+        {
+          "name": "Аэрофлот",
+          "code": "SU",
+          "rating": 4.8
+        },
+        {
+          "name": "Nordwind",
+          "code": "N4",
+          "rating": 4.3
+        }
+      ],
+      "transfers": [
+        {
+          "type": "Комфорт+ (Седан)",
+          "vehicle": "Toyota Camry / Kia K5",
+          "capacity_passengers": 3,
+          "capacity_luggage": 3,
+          "duration_minutes": 35,
+          "price_rub": 1800,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        },
+        {
+          "type": "Минивэн для семьи/группы",
+          "vehicle": "Hyundai Staria / H-1",
+          "capacity_passengers": 6,
+          "capacity_luggage": 6,
+          "duration_minutes": 35,
+          "price_rub": 3200,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        }
+      ]
+    },
+    "bali": {
+      "airport_code": "DPS",
+      "airport_name": "Международный аэропорт Денпасар (Нгурах-Рай)",
+      "city": "Бали",
+      "flight_duration_hours": 12.5,
+      "base_price_rub": 42000,
+      "airlines": [
+        {
+          "name": "Qatar Airways",
+          "code": "QR",
+          "rating": 4.9
+        },
+        {
+          "name": "Emirates",
+          "code": "EK",
+          "rating": 4.9
+        },
+        {
+          "name": "Аэрофлот",
+          "code": "SU",
+          "rating": 4.7
+        }
+      ],
+      "transfers": [
+        {
+          "type": "Индивидуальный трансфер (Комфорт)",
+          "vehicle": "Toyota Innova / Fortuner",
+          "capacity_passengers": 4,
+          "capacity_luggage": 4,
+          "duration_minutes": 50,
+          "price_rub": 2500,
+          "child_seat_available": true,
+          "pet_friendly": true,
+          "meet_with_sign": true
+        }
+      ]
+    }
+  }
+}

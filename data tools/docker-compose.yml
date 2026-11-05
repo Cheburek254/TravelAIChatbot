@@ -1,0 +1,3 @@
+# Start the same full application and SQL database from either directory.
+include:
+  - path: ../docker-compose.yml

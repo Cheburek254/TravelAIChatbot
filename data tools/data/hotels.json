@@ -1,0 +1,1141 @@
+[
+  {
+    "id": "hotel_gesh_01",
+    "name": "Alpen Club Chalet & Spa",
+    "destination_id": "sheregesh",
+    "destination_name": "Шерегеш",
+    "stars": 4,
+    "rating": 9.4,
+    "reviews_count": 420,
+    "price_per_night": 14500,
+    "currency": "RUB",
+    "address": "пгт. Шерегеш, ул. Туристическая, 6/1",
+    "distance_to_center_km": 1.2,
+    "distance_to_ski_lift_m": 150,
+    "distance_to_beach_m": null,
+    "checkin_time": "14:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": true,
+      "fee_per_stay": 2500,
+      "max_weight_kg": 15,
+      "description": "Приветствуются собаки и кошки до 15 кг. Предоставляется миска и приветственное лакомство."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": true,
+      "description": "Бесплатная кроватка-манеж по запросу, детская игровая комната с воспитателем."
+    },
+    "deposit": {
+      "required": false,
+      "amount": 0,
+      "currency": "RUB",
+      "description": "Депозит при заселении не требуется."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 3,
+      "description": "Бесплатная отмена за 3 дня до заезда, далее удержание стоимости первой ночи."
+    },
+    "meal_type": "BB",
+    "meal_description": "Завтрак 'шведский стол' включен в стоимость",
+    "amenities": [
+      "ski_in_ski_out",
+      "spa",
+      "sauna",
+      "indoor_pool",
+      "fireplace",
+      "wifi",
+      "restaurant",
+      "bar",
+      "ski_storage"
+    ],
+    "vibe_tags": [
+      "горы",
+      "шале",
+      "камин",
+      "уют",
+      "лыжи",
+      "пухляк",
+      "баня",
+      "романтика",
+      "пет-френдли"
+    ],
+    "description": "Уютное альпийское шале у подножия горы Зеленая с дровяным камином в лаунже, теплым спа-комплексом с бассейном и прямым выходом к подъемнику.",
+    "photos": []
+  },
+  {
+    "id": "hotel_gesh_02",
+    "name": "Тайга Шале & Эко-Дома",
+    "destination_id": "sheregesh",
+    "destination_name": "Шерегеш",
+    "stars": 3,
+    "rating": 9.1,
+    "reviews_count": 185,
+    "price_per_night": 9800,
+    "currency": "RUB",
+    "address": "пгт. Шерегеш, Снежная ул., 14",
+    "distance_to_center_km": 2.5,
+    "distance_to_ski_lift_m": 400,
+    "distance_to_beach_m": null,
+    "checkin_time": "15:00",
+    "checkout_time": "11:00",
+    "early_checkin_available": false,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": true,
+      "fee_per_stay": 1500,
+      "max_weight_kg": 25,
+      "description": "Pet-friendly: разрешено проживание с собаками любых пород до 25 кг."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": false,
+      "description": "Детская кроватка предоставляется бесплатно."
+    },
+    "deposit": {
+      "required": true,
+      "amount": 5000,
+      "currency": "RUB",
+      "description": "Возвратный залог 5000 руб. наличными или картой при заезде."
+    },
+    "cancellation_policy": {
+      "type": "flexible",
+      "free_cancellation_days_before": 7,
+      "description": "Бесплатная отмена за 7 дней до заезда."
+    },
+    "meal_type": "RO",
+    "meal_description": "Без питания (собственная оборудованная кухня в каждом шале)",
+    "amenities": [
+      "fireplace",
+      "sauna",
+      "bbq",
+      "wifi",
+      "parking",
+      "mountain_view"
+    ],
+    "vibe_tags": [
+      "уютное шале в горах",
+      "камин",
+      "тишина",
+      "собака",
+      "баня",
+      "семья"
+    ],
+    "description": "Отдельные бревенчатые эко-шале с настоящим дровяным камином, собственной кедровой баней и видом на заснеженный хвойный лес.",
+    "photos": []
+  },
+  {
+    "id": "hotel_sochi_01",
+    "name": "Radisson Collection Paradise Resort & Spa",
+    "destination_id": "sochi",
+    "destination_name": "Сочи",
+    "stars": 5,
+    "rating": 9.6,
+    "reviews_count": 1240,
+    "price_per_night": 21000,
+    "currency": "RUB",
+    "address": "г. Сочи, Имеретинская низменность, ул. 65 Лет Победы, 50",
+    "distance_to_center_km": 30.0,
+    "distance_to_beach_m": 50,
+    "checkin_time": "15:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": false,
+      "fee_per_stay": 0,
+      "max_weight_kg": 0,
+      "description": "Проживание с домашними животными не предусмотрено."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": true,
+      "description": "Кроватка бесплатно, аниматоры, детский бассейн с подогревом и игровая площадка."
+    },
+    "deposit": {
+      "required": true,
+      "amount": 10000,
+      "currency": "RUB",
+      "description": "Гарантийный депозит 10 000 руб. блокируется на карте."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 1,
+      "description": "Бесплатная отмена за 24 часа до даты заезда."
+    },
+    "meal_type": "BB",
+    "meal_description": "Премиальный завтрак с шампанским включен в стоимость",
+    "amenities": [
+      "first_line_beach",
+      "heated_pool",
+      "spa",
+      "kids_club",
+      "tennis",
+      "wifi",
+      "restaurants",
+      "fitness"
+    ],
+    "vibe_tags": [
+      "первая линия",
+      "пляж",
+      "море",
+      "семейный отдых с детьми",
+      "спа",
+      "роскошь"
+    ],
+    "description": "Флагманский пятизвездочный курортный отель на первой линии в Имеретинской бухте с подогреваемыми бассейнами, огромным спа-центром 2500 м² и детским клубом.",
+    "photos": []
+  },
+  {
+    "id": "hotel_sochi_02",
+    "name": "Шале Гранд Поляна Resort & Spa",
+    "destination_id": "sochi",
+    "destination_name": "Сочи",
+    "stars": 5,
+    "rating": 9.5,
+    "reviews_count": 890,
+    "price_per_night": 24000,
+    "currency": "RUB",
+    "address": "пгт. Красная Поляна, ул. Ачишховская, 22",
+    "distance_to_center_km": 42.0,
+    "distance_to_ski_lift_m": 800,
+    "distance_to_beach_m": null,
+    "checkin_time": "14:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": true,
+      "fee_per_stay": 3000,
+      "max_weight_kg": 10,
+      "description": "Разрешены собаки мелких пород до 10 кг при согласовании."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": true,
+      "description": "Детские кроватки, стульчики и услуги няни."
+    },
+    "deposit": {
+      "required": false,
+      "amount": 0,
+      "currency": "RUB",
+      "description": "Депозит не взимается."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 3,
+      "description": "Бесплатная отмена за 3 дня до заезда."
+    },
+    "meal_type": "BB",
+    "meal_description": "Завтрак фермерскими продуктами включен",
+    "amenities": [
+      "fireplace",
+      "spa",
+      "outdoor_heated_pool",
+      "mountain_view",
+      "sauna",
+      "restaurant",
+      "ski_transfer"
+    ],
+    "vibe_tags": [
+      "уютные шале в горах",
+      "красная поляна",
+      "камин",
+      "подогреваемый бассейн",
+      "горы",
+      "спа",
+      "романтика"
+    ],
+    "description": "Премиальные горные шале из сибирского кедра с открытым подогреваемым бассейном с панорамой Кавказских гор, каминным залом и спа.",
+    "photos": []
+  },
+  {
+    "id": "hotel_sochi_03",
+    "name": "Отель Бридж Резорт Сочи",
+    "destination_id": "sochi",
+    "destination_name": "Сочи",
+    "stars": 4,
+    "rating": 8.9,
+    "reviews_count": 2100,
+    "price_per_night": 8900,
+    "currency": "RUB",
+    "address": "г. Сочи, ул. Фигурная, 45",
+    "distance_to_center_km": 32.0,
+    "distance_to_beach_m": 250,
+    "checkin_time": "14:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": false,
+    "pet_friendly": {
+      "allowed": true,
+      "fee_per_stay": 2000,
+      "max_weight_kg": 8,
+      "description": "Разрешено размещение с кошками и собаками весом до 8 кг."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": true,
+      "description": "Детские кроватки бесплатно, мастер-классы, детский городок и анимация нон-стоп."
+    },
+    "deposit": {
+      "required": false,
+      "amount": 0,
+      "currency": "RUB",
+      "description": "Без залога."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 2,
+      "description": "Бесплатная отмена за 2 дня."
+    },
+    "meal_type": "AI",
+    "meal_description": "Все включено (All Inclusive) трехразовое питание + снек-бар",
+    "amenities": [
+      "pool",
+      "all_inclusive",
+      "kids_club",
+      "wellness",
+      "animation",
+      "beach_transfer",
+      "wifi"
+    ],
+    "vibe_tags": [
+      "все включено",
+      "семейный отдых с детьми",
+      "недорого",
+      "море",
+      "детская кроватка",
+      "анимация"
+    ],
+    "description": "Популярный семейный курорт 'все включено' рядом с морем: идеален для отдыха с детьми любого возраста, полный пансион, бассейны и забота о родителях.",
+    "photos": []
+  },
+  {
+    "id": "hotel_dubai_01",
+    "name": "Rixos Premium Dubai JBR",
+    "destination_id": "dubai",
+    "destination_name": "Дубай",
+    "stars": 5,
+    "rating": 9.3,
+    "reviews_count": 3100,
+    "price_per_night": 32000,
+    "currency": "RUB",
+    "address": "The Walk, JBR, Dubai Marina, Dubai",
+    "distance_to_center_km": 18.0,
+    "distance_to_beach_m": 0,
+    "checkin_time": "15:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": false,
+      "fee_per_stay": 0,
+      "max_weight_kg": 0,
+      "description": "Размещение с домашними животными запрещено правилами отеля."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": true,
+      "description": "Бесплатная детская кроватка по запросу, детский бассейн, анимация."
+    },
+    "deposit": {
+      "required": true,
+      "amount": 500,
+      "currency": "AED",
+      "description": "Депозит 500 AED за ночь (около 13 500 руб.) при заезде."
+    },
+    "cancellation_policy": {
+      "type": "flexible",
+      "free_cancellation_days_before": 3,
+      "description": "Бесплатная отмена бронирования за 3 дня до даты заезда."
+    },
+    "meal_type": "HB",
+    "meal_description": "Полупансион (завтрак и изысканный ужин 'шведский стол')",
+    "amenities": [
+      "private_beach",
+      "outdoor_infinity_pool",
+      "spa",
+      "nightclub",
+      "fitness",
+      "restaurants",
+      "valet_parking"
+    ],
+    "vibe_tags": [
+      "тёплое море в ноябре",
+      "пляж",
+      "первая линия",
+      "роскошь",
+      "тусовки",
+      "дубай",
+      "вид на колесо обозрения"
+    ],
+    "description": "Стильный отель прямо на легендарном пляже JBR с прямым выходом в теплое море, инфинити-бассейном, видом на Ain Dubai и бурной ночной жизнью.",
+    "photos": []
+  },
+  {
+    "id": "hotel_dubai_02",
+    "name": "JA Ocean View Hotel",
+    "destination_id": "dubai",
+    "destination_name": "Дубай",
+    "stars": 5,
+    "rating": 9.0,
+    "reviews_count": 1850,
+    "price_per_night": 18500,
+    "currency": "RUB",
+    "address": "The Walk, JBR, Dubai",
+    "distance_to_center_km": 19.0,
+    "distance_to_beach_m": 80,
+    "checkin_time": "15:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": false,
+    "pet_friendly": {
+      "allowed": true,
+      "fee_per_stay": 4500,
+      "max_weight_kg": 10,
+      "description": "Разрешены собаки до 10 кг в выделенных номерах."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": true,
+      "description": "Бесплатная кроватка для младенца, детский клуб CoolZone."
+    },
+    "deposit": {
+      "required": true,
+      "amount": 300,
+      "currency": "AED",
+      "description": "Депозит 300 AED за ночь."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 2,
+      "description": "Бесплатная отмена за 48 часов."
+    },
+    "meal_type": "BB",
+    "meal_description": "Завтрак включен в стоимость",
+    "amenities": [
+      "sea_view_balcony",
+      "swimming_pool",
+      "gym",
+      "kids_club",
+      "wifi",
+      "restaurants"
+    ],
+    "vibe_tags": [
+      "пляж",
+      "семья с детьми",
+      "море",
+      "тепло в ноябре",
+      "доступная роскошь",
+      "пет-френдли"
+    ],
+    "description": "Все номера с собственным балконом и видом на Персидский залив. Расположен в 1 минуте пешком от пляжа JBR, отличное соотношение цены и качества для семей.",
+    "photos": []
+  },
+  {
+    "id": "hotel_phuket_01",
+    "name": "Katathani Phuket Beach Resort",
+    "destination_id": "phuket",
+    "destination_name": "Пхукет",
+    "stars": 5,
+    "rating": 9.4,
+    "reviews_count": 2800,
+    "price_per_night": 15500,
+    "currency": "RUB",
+    "address": "14 Kata Noi Road, Karon, Muang, Phuket",
+    "distance_to_center_km": 14.0,
+    "distance_to_beach_m": 0,
+    "checkin_time": "14:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": false,
+      "fee_per_stay": 0,
+      "max_weight_kg": 0,
+      "description": "Животные не допускаются."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": true,
+      "description": "Бесплатная детская кроватка, детский аквапарк Chang Noi Kid's Water Park, мини-клуб."
+    },
+    "deposit": {
+      "required": false,
+      "amount": 0,
+      "currency": "THB",
+      "description": "Депозит не требуется."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 5,
+      "description": "Бесплатная отмена за 5 дней до заезда."
+    },
+    "meal_type": "BB",
+    "meal_description": "Большой тропический завтрак 'шведский стол'",
+    "amenities": [
+      "first_line_beach",
+      "6_pools",
+      "kids_waterpark",
+      "spa",
+      "6_restaurants",
+      "tennis",
+      "wifi"
+    ],
+    "vibe_tags": [
+      "тёплое море в ноябре",
+      "белый песок",
+      "первая линия",
+      "семья с детьми",
+      "пальмы",
+      "спокойствие"
+    ],
+    "description": "Райский курорт занимает 850 метров белоснежного пляжа Ката Ной. 6 бассейнов, аквапарк для детей, штиль в море в ноябре и лазурная вода +29°C.",
+    "photos": []
+  },
+  {
+    "id": "hotel_phuket_02",
+    "name": "Baan Karon Resort & Villas",
+    "destination_id": "phuket",
+    "destination_name": "Пхукет",
+    "stars": 3,
+    "rating": 8.7,
+    "reviews_count": 640,
+    "price_per_night": 4800,
+    "currency": "RUB",
+    "address": "213 Patak Road, Karon Beach, Phuket",
+    "distance_to_center_km": 12.0,
+    "distance_to_beach_m": 450,
+    "checkin_time": "14:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": false,
+    "pet_friendly": {
+      "allowed": true,
+      "fee_per_stay": 1000,
+      "max_weight_kg": 12,
+      "description": "Разрешены питомцы до 12 кг в виллах на первом этаже."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": false,
+      "description": "Детская кроватка бесплатно."
+    },
+    "deposit": {
+      "required": false,
+      "amount": 0,
+      "currency": "THB",
+      "description": "Без залога."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 2,
+      "description": "Бесплатная отмена за 2 дня."
+    },
+    "meal_type": "RO",
+    "meal_description": "Без питания (рядом ночной рынок и фруктовые лавки)",
+    "amenities": [
+      "pool",
+      "tropical_garden",
+      "wifi",
+      "parking",
+      "bike_rental"
+    ],
+    "vibe_tags": [
+      "недорого",
+      "тепло в ноябре",
+      "бюджетно",
+      "море",
+      "тайский колорит",
+      "пет-френдли"
+    ],
+    "description": "Уютный и доступный курорт среди тропического сада с открытым бассейном в пешей доступности от знаменитого поющего песка пляжа Карон.",
+    "photos": []
+  },
+  {
+    "id": "hotel_altay_01",
+    "name": "Алтай Вилладж Телецкое Шале 5*",
+    "destination_id": "altay",
+    "destination_name": "Алтай",
+    "stars": 5,
+    "rating": 9.8,
+    "reviews_count": 310,
+    "price_per_night": 38000,
+    "currency": "RUB",
+    "address": "Республика Алтай, Турочакский р-н, мыс Куван",
+    "distance_to_center_km": 8.0,
+    "distance_to_beach_m": 20,
+    "checkin_time": "15:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": true,
+      "fee_per_stay": 5000,
+      "max_weight_kg": 20,
+      "description": "Pet-friendly премиум уровня: лежанка, миски, игрушка и полотенца для лап."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": true,
+      "description": "Кроватки из массива кедра, безопасная территория, детская площадка."
+    },
+    "deposit": {
+      "required": false,
+      "amount": 0,
+      "currency": "RUB",
+      "description": "Депозит не требуется."
+    },
+    "cancellation_policy": {
+      "type": "flexible",
+      "free_cancellation_days_before": 14,
+      "description": "Бесплатная отмена за 14 дней до заезда."
+    },
+    "meal_type": "BB",
+    "meal_description": "Авторский сибирский завтрак из дикоросов и местной рыбы",
+    "amenities": [
+      "fireplace",
+      "lake_view",
+      "helipad",
+      "spa",
+      "banya_on_lake",
+      "indoor_pool",
+      "fine_dining"
+    ],
+    "vibe_tags": [
+      "уютные шале в горах",
+      "камин",
+      "озеро",
+      "роскошь",
+      "перезагрузка",
+      "вертолет",
+      "тишина",
+      "пет-френдли"
+    ],
+    "description": "Эксклюзивные уединенные шале из массива кедра прямо на берегу кристального Телецкого озера с каминами, русской баней у воды и абсолютной тишиной.",
+    "photos": []
+  },
+  {
+    "id": "hotel_altay_02",
+    "name": "Эко-Отель Кедровый Остров",
+    "destination_id": "altay",
+    "destination_name": "Алтай",
+    "stars": 4,
+    "rating": 9.2,
+    "reviews_count": 480,
+    "price_per_night": 7900,
+    "currency": "RUB",
+    "address": "Республика Алтай, Чемальский район, с. Узнезя",
+    "distance_to_center_km": 15.0,
+    "distance_to_beach_m": 50,
+    "checkin_time": "14:00",
+    "checkout_time": "11:00",
+    "early_checkin_available": true,
+    "late_checkout_available": false,
+    "pet_friendly": {
+      "allowed": true,
+      "fee_per_stay": 1200,
+      "max_weight_kg": 15,
+      "description": "Животные разрешены в индивидуальных домиках."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": false,
+      "description": "Детская кроватка по предварительному запросу."
+    },
+    "deposit": {
+      "required": false,
+      "amount": 0,
+      "currency": "RUB",
+      "description": "Без залога."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 3,
+      "description": "Бесплатная отмена за 3 дня."
+    },
+    "meal_type": "BB",
+    "meal_description": "Домашний алтайский завтрак включен",
+    "amenities": [
+      "fireplace",
+      "river_view",
+      "sauna",
+      "bbq",
+      "wifi",
+      "parking"
+    ],
+    "vibe_tags": [
+      "уютное шале в горах",
+      "камин",
+      "река катунь",
+      "природа",
+      "баня",
+      "семья"
+    ],
+    "description": "Деревянные домики-шале с панорамными террасами над бирюзовой рекой Катунь, печным отоплением и камином, чистейшим сосновым воздухом.",
+    "photos": []
+  },
+  {
+    "id": "hotel_istanbul_01",
+    "name": "Sultanahmet Palace Boutique Hotel",
+    "destination_id": "istanbul",
+    "destination_name": "Стамбул",
+    "stars": 4,
+    "rating": 9.3,
+    "reviews_count": 920,
+    "price_per_night": 11200,
+    "currency": "RUB",
+    "address": "Torun Sk. No: 19 Sultanahmet, Fatih, Istanbul",
+    "distance_to_center_km": 0.2,
+    "distance_to_beach_m": null,
+    "checkin_time": "14:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": true,
+      "fee_per_stay": 1500,
+      "max_weight_kg": 10,
+      "description": "Кошки и небольшие собаки приветствуются (Стамбул любит животных!)."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": false,
+      "description": "Детская кроватка предоставляется бесплатно."
+    },
+    "deposit": {
+      "required": false,
+      "amount": 0,
+      "currency": "EUR",
+      "description": "Депозит не требуется."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 2,
+      "description": "Бесплатная отмена за 48 часов до прибытия."
+    },
+    "meal_type": "BB",
+    "meal_description": "Традиционный турецкий завтрак на видовой террасе",
+    "amenities": [
+      "bosphorus_view",
+      "terrace_restaurant",
+      "wifi",
+      "concierge",
+      "historic_building"
+    ],
+    "vibe_tags": [
+      "романтика",
+      "история",
+      "босфор",
+      "вид на голубую мечеть",
+      "уютный бутик-отель",
+      "пешие прогулки"
+    ],
+    "description": "Аутентичный бутик-отель в сердце исторического Султанахмета с панорамной террасой с прямым видом на Голубую мечеть и Мраморное море.",
+    "photos": []
+  },
+  {
+    "id": "hotel_maldives_01",
+    "name": "Sun Siyam Olhuveli Overwater Villas",
+    "destination_id": "maldives",
+    "destination_name": "Мальдивы",
+    "stars": 5,
+    "rating": 9.5,
+    "reviews_count": 1400,
+    "price_per_night": 46000,
+    "currency": "RUB",
+    "address": "South Male Atoll, Maldives",
+    "distance_to_center_km": 35.0,
+    "distance_to_beach_m": 0,
+    "checkin_time": "14:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": false,
+      "fee_per_stay": 0,
+      "max_weight_kg": 0,
+      "description": "Проживание с животными на курорте запрещено."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": true,
+      "description": "Детская кроватка бесплатно, детский клуб Maakana Kid's Club."
+    },
+    "deposit": {
+      "required": true,
+      "amount": 200,
+      "currency": "USD",
+      "description": "Депозит 200 USD за весь период проживания."
+    },
+    "cancellation_policy": {
+      "type": "flexible",
+      "free_cancellation_days_before": 7,
+      "description": "Бесплатная отмена за 7 дней до заезда."
+    },
+    "meal_type": "AI",
+    "meal_description": "Все включено (All Inclusive) с премиум напитками и 4 ресторанами a-la-carte",
+    "amenities": [
+      "water_villa",
+      "private_lagoon",
+      "diving_center",
+      "spa",
+      "infinity_pool",
+      "speedboat_transfer"
+    ],
+    "vibe_tags": [
+      "тёплое море в ноябре",
+      "водные виллы",
+      "романтика",
+      "медовый месяц",
+      "все включено",
+      "лазурь",
+      "снорклинг"
+    ],
+    "description": "Иконические виллы на сваях прямо над кристальной бирюзовой лагуной. Личный спуск в океан к коралловому рифу, круглосуточное наблюдение за мантами и скатами.",
+    "photos": []
+  },
+  {
+    "id": "hotel_kaliningrad_01",
+    "name": "Бутик-Отель Мадам L Светлогорск",
+    "destination_id": "kaliningrad",
+    "destination_name": "Калининград",
+    "stars": 5,
+    "rating": 9.6,
+    "reviews_count": 390,
+    "price_per_night": 12500,
+    "currency": "RUB",
+    "address": "г. Светлогорск, ул. Ленина, 15",
+    "distance_to_center_km": 35.0,
+    "distance_to_beach_m": 300,
+    "checkin_time": "14:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": true,
+      "fee_per_stay": 2000,
+      "max_weight_kg": 8,
+      "description": "Разрешено проживание с воспитанными собаками мелких пород."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": false,
+      "description": "Бесплатная детская кроватка."
+    },
+    "deposit": {
+      "required": false,
+      "amount": 0,
+      "currency": "RUB",
+      "description": "Без залога."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 2,
+      "description": "Бесплатная отмена за 48 часов."
+    },
+    "meal_type": "BB",
+    "meal_description": "Завтрак a la carte с балтийскими деликатесами включен",
+    "amenities": [
+      "spa",
+      "sauna",
+      "restaurant",
+      "wifi",
+      "terrace",
+      "concierge"
+    ],
+    "vibe_tags": [
+      "европейский уют",
+      "романтика",
+      "балтика",
+      "море",
+      "спа",
+      "променад",
+      "пет-френдли"
+    ],
+    "description": "Изысканный пятизвездочный бутик-отель во французском стиле среди сосен курортного Светлогорска, рядом со спуском к Балтийскому морю.",
+    "photos": []
+  },
+  {
+    "id": "hotel_dagestan_01",
+    "name": "Гранд Отель Дербент 4*",
+    "destination_id": "dagestan",
+    "destination_name": "Дагестан",
+    "stars": 4,
+    "rating": 9.2,
+    "reviews_count": 680,
+    "price_per_night": 6200,
+    "currency": "RUB",
+    "address": "г. Дербент, ул. Гагарина, 21",
+    "distance_to_center_km": 0.8,
+    "distance_to_ski_lift_m": null,
+    "distance_to_beach_m": 300,
+    "checkin_time": "14:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": true,
+      "fee_per_stay": 1500,
+      "max_weight_kg": 12,
+      "description": "Разрешено размещение с кошками и собаками весом до 12 кг."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": false,
+      "description": "Детская кроватка доступна по запросу бесплатно."
+    },
+    "deposit": {
+      "required": false,
+      "amount": 0,
+      "currency": "RUB",
+      "description": "Без залога и депозита при заселении."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 3,
+      "description": "Бесплатная отмена за 3 дня до заезда."
+    },
+    "meal_type": "BB",
+    "meal_description": "Дагестанский завтрак с местной выпечкой и сырами включён",
+    "amenities": [
+      "wifi",
+      "restaurant",
+      "terrace",
+      "ac",
+      "parking",
+      "transfer"
+    ],
+    "vibe_tags": [
+      "горы",
+      "море",
+      "каспий",
+      "история",
+      "крепость",
+      "гастрономия",
+      "уют",
+      "пет-френдли"
+    ],
+    "description": "Современный отель в древнейшем городе России с видом на Каспийское море и крепость Нарын-Кала, аутентичный дагестанский завтрак.",
+    "photos": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=80"
+    ]
+  },
+  {
+    "id": "hotel_dagestan_02",
+    "name": "Каспий Парк Резорт & Спа 4*",
+    "destination_id": "dagestan",
+    "destination_name": "Дагестан",
+    "stars": 4,
+    "rating": 8.9,
+    "reviews_count": 910,
+    "price_per_night": 5400,
+    "currency": "RUB",
+    "address": "г. Каспийск, ул. Приморская, 5",
+    "distance_to_center_km": 2.5,
+    "distance_to_ski_lift_m": null,
+    "distance_to_beach_m": 50,
+    "checkin_time": "14:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": false,
+      "fee_per_stay": 0,
+      "max_weight_kg": 0,
+      "description": "Размещение с животными не предусмотрено."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": true,
+      "description": "Семейный отель: детский клуб, площадка, мелкий песчаный вход в море."
+    },
+    "deposit": {
+      "required": false,
+      "amount": 0,
+      "currency": "RUB",
+      "description": "Депозит не требуется."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 2,
+      "description": "Бесплатная отмена за 48 часов до заезда."
+    },
+    "meal_type": "HB",
+    "meal_description": "Полупансион (завтрак и ужин шведский стол)",
+    "amenities": [
+      "beachfront",
+      "spa",
+      "pool",
+      "restaurant",
+      "wifi",
+      "sauna"
+    ],
+    "vibe_tags": [
+      "море",
+      "пляж",
+      "первая линия",
+      "песок",
+      "релакс",
+      "спа",
+      "семейный"
+    ],
+    "description": "Курортный спа-отель на первой линии Каспийского моря с подогреваемым бассейном, песчаным пляжем и панорамным рестораном кавказской кухни.",
+    "photos": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=900&q=80"
+    ]
+  },
+  {
+    "id": "hotel_bali_01",
+    "name": "Ayana Resort Bali 5*",
+    "destination_id": "bali",
+    "destination_name": "Бали",
+    "stars": 5,
+    "rating": 9.5,
+    "reviews_count": 1420,
+    "price_per_night": 18500,
+    "currency": "RUB",
+    "address": "Джимбаран, Бали, Индонезия",
+    "distance_to_center_km": 3.0,
+    "distance_to_ski_lift_m": null,
+    "distance_to_beach_m": 100,
+    "checkin_time": "15:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": false,
+      "fee_per_stay": 0,
+      "max_weight_kg": 0,
+      "description": "По санитарным нормам Индонезии животные не принимаются."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": true,
+      "description": "Премиальный семейный сервис и детский бассейн."
+    },
+    "deposit": {
+      "required": true,
+      "amount": 8000,
+      "currency": "RUB",
+      "description": "Возвратный депозит при заселении: 8 000 ₽ картой."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 7,
+      "description": "Бесплатная отмена за 7 дней до заезда."
+    },
+    "meal_type": "BB",
+    "meal_description": "Тропический завтрак с экзотическими фруктами и смузи",
+    "amenities": [
+      "ocean_view",
+      "infinity_pool",
+      "spa",
+      "beachfront",
+      "wifi",
+      "bar"
+    ],
+    "vibe_tags": [
+      "бали",
+      "океан",
+      "тропики",
+      "пляж",
+      "закаты",
+      "роскошь",
+      "спа",
+      "романтика"
+    ],
+    "description": "Легендарный 5* курорт на скале над Индийским океаном с инфинити-бассейном, знаменитым Rock Bar и закатами.",
+    "photos": [
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=900&q=80"
+    ]
+  },
+  {
+    "id": "hotel_bali_02",
+    "name": "Ubud Tropical Garden Resort 4*",
+    "destination_id": "bali",
+    "destination_name": "Бали",
+    "stars": 4,
+    "rating": 9.1,
+    "reviews_count": 640,
+    "price_per_night": 8200,
+    "currency": "RUB",
+    "address": "Убуд, Бали, Индонезия",
+    "distance_to_center_km": 1.5,
+    "distance_to_ski_lift_m": null,
+    "distance_to_beach_m": null,
+    "checkin_time": "14:00",
+    "checkout_time": "12:00",
+    "early_checkin_available": true,
+    "late_checkout_available": true,
+    "pet_friendly": {
+      "allowed": false,
+      "fee_per_stay": 0,
+      "max_weight_kg": 0,
+      "description": "Размещение с животными не предусмотрено."
+    },
+    "child_friendly": {
+      "baby_crib_available": true,
+      "baby_crib_free": true,
+      "kids_club": false,
+      "description": "Кроватка для малышей по запросу."
+    },
+    "deposit": {
+      "required": false,
+      "amount": 0,
+      "currency": "RUB",
+      "description": "Без залога при заселении."
+    },
+    "cancellation_policy": {
+      "type": "free_cancellation",
+      "free_cancellation_days_before": 3,
+      "description": "Бесплатная отмена за 3 дня до заезда."
+    },
+    "meal_type": "BB",
+    "meal_description": "Завтрак в окружении рисовых террас и джунглей",
+    "amenities": [
+      "jungle_pool",
+      "yoga",
+      "spa",
+      "wifi",
+      "restaurant"
+    ],
+    "vibe_tags": [
+      "бали",
+      "убуд",
+      "джунгли",
+      "йога",
+      "релакс",
+      "природа",
+      "спокойствие"
+    ],
+    "description": "Уютный курорт в сердце джунглей Убуда среди рисовых террас: йога, спа, вид на тропические холмы и тишина.",
+    "photos": [
+      "https://images.unsplash.com/photo-1570784332176-fdd73da66f03?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=900&q=80"
+    ]
+  }
+]

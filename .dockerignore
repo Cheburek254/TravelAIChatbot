@@ -1,0 +1,15 @@
+.git
+.venv
+**/node_modules
+**/dist
+**/__pycache__
+**/*.pyc
+.env
+**/.env
+secrets.env
+*.env.age
+**/*.identity
+**/*.key
+*.db
+.requirements-page.html
+backups

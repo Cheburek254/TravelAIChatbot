@@ -1,0 +1,43 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: travel
+      POSTGRES_USER: travel
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-travel_demo}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U travel -d travel"]
+      interval: 5s
+      timeout: 3s
+      retries: 15
+    mem_limit: 256m
+    restart: unless-stopped
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${APP_BIND_ADDRESS:-0.0.0.0}:${APP_PUBLIC_PORT:-8080}:8080"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      - APP_PORT=8080
+      - APP_HOST=0.0.0.0
+      - DATABASE_URL=${DATABASE_URL:-postgresql+psycopg://travel:${POSTGRES_PASSWORD:-travel_demo}@db:5432/travel}
+    depends_on:
+      db:
+        condition: service_healthy
+    mem_limit: 512m
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health').read()"]
+      interval: 15s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+volumes:
+  postgres_data:
