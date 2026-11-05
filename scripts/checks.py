@@ -30,15 +30,12 @@ def check_secrets():
     staged = subprocess.check_output(["git", "diff", "--cached", "--name-only", "--diff-filter=ACM", "-z"], cwd=ROOT).decode().split("\0")
     if not any(staged):
         staged = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT).decode().split("\0")
-    patterns = (rb"gsk_[A-Za-z0-9]{20,}", rb"sk-or-v1-[A-Za-z0-9_-]{20,}", rb"sk-[A-Za-z0-9_-]{24,}", rb"AGE-SECRET-KEY-[A-Z0-9]{40,}", rb"-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----")
+    patterns = (rb"gsk_[A-Za-z0-9]{20,}", rb"sk-or-v1-[A-Za-z0-9_-]{20,}", rb"sk-[A-Za-z0-9_-]{24,}", rb"-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----")
     for name in filter(None, staged):
         if Path(name).name == ".env" or name.endswith((".identity", ".key")):
             raise RuntimeError(f"Private configuration cannot be committed: {name}")
         content = subprocess.check_output(["git", "show", ":" + name], cwd=ROOT)
-        if name.endswith(".age"):
-            if not content.startswith(b"age-encryption.org/v1\n"):
-                raise RuntimeError(f"Expected binary age ciphertext: {name}")
-        elif any(re.search(pattern, content) for pattern in patterns):
+        if any(re.search(pattern, content) for pattern in patterns):
             raise RuntimeError(f"Possible plaintext credential: {name}")
 
 

@@ -209,7 +209,7 @@ UPDATE hotels SET price_per_night = 12000 WHERE id = 'hotel_gesh_01';
 | [data tools/tests](<data tools/tests>) и [frontend/tests](frontend/tests) | Тесты backend и frontend |
 | [Dockerfile](Dockerfile), [docker-compose.yml](docker-compose.yml) | Сборка приложения и PostgreSQL |
 | [.env.example](.env.example), [.env.defaults](.env.defaults), [.env.server.example](.env.server.example) | Пустая схема переменных, локальные значения по умолчанию и серверный шаблон |
-| [scripts](scripts), [.githooks/pre-commit](.githooks/pre-commit), [.github/workflows/checks.yml](.github/workflows/checks.yml) | Проверки перед коммитом, CI и шифрование age |
+| [scripts](scripts), [.githooks/pre-commit](.githooks/pre-commit), [.github/workflows/checks.yml](.github/workflows/checks.yml) | Проверки перед коммитом и в CI |
 | [benchmark.py](benchmark.py), [test_scenarios.json](test_scenarios.json) | Бенчмарк и 20 сценариев |
 
 ## Настройки и диагностика
@@ -318,7 +318,7 @@ npm run build
 docker compose exec app python -m unittest discover -s tests -v
 ```
 
-Набор проверок: **218 backend-тестов, 20 frontend-тестов, 2 теста шифрования, 3 теста диагностики зависимостей и 6 тестов бенчмарка — всего 249**. Тесты чата используют временную SQL-базу и подменяют ИИ-провайдеров. Проверяются сессии, бюджет, предпочтения, обсуждение отеля без изменения карточек, перенос дат без изменения цены, изменение гостей, ваучеры и переключение резервов.
+Всего **247 тестов**. Из них 218 для бэкенда, 20 для фронтенда, 3 для диагностики зависимостей и 6 для бенчмарка. Тесты чата используют временную SQL-базу и подменяют ИИ-провайдеров. Проверяются сессии, бюджет, предпочтения, обсуждение отеля без изменения карточек, перенос дат без изменения цены, изменение гостей, ваучеры и переключение резервов.
 
 ### Автоматический запуск перед коммитом и в GitHub
 
@@ -329,17 +329,7 @@ git config core.hooksPath .githooks
 python scripts/checks.py
 ```
 
-Каждый `git commit` запускает проверку открытых секретов, backend-тесты, тесты age, frontend-тесты, линтер и production-сборку. Ошибка прерывает коммит. GitHub Actions повторяет эти проверки при `push` и `pull_request`; доступность Actions зависит от настроек организации. API-ключи и обращения к живым моделям для тестов не нужны.
-
-### Шифрование локальной конфигурации
-
-Для резервной копии своего файла окружения можно использовать [age](https://github.com/FiloSottile/age). Установите age и укажите свой публичный ключ:
-
-```bash
-python scripts/encrypt_secrets.py --recipient YOUR_AGE_PUBLIC_KEY --input .env --output secrets.env.age
-```
-
-Храните ключ расшифровки и конфигурацию в отдельном защищённом месте. Файлы с секретами исключены из Git.
+После включения хука каждый `git commit` запускает проверку открытых секретов, тесты бэкенда и фронтенда, линтер и production-сборку. Ошибка прерывает коммит. GitHub Actions повторяет эти проверки при `push` и `pull_request`. Тесты работают с заглушками ИИ-провайдеров. Храните API-ключи в локальном `.env`.
 
 ### Проверка Docker + PostgreSQL
 

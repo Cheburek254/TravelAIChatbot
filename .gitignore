@@ -46,7 +46,7 @@ frontend/dist/
 # Environment variables
 .env
 secrets.env
-*.env.age
+secrets.env.*
 *.identity
 *.key
 *.db
